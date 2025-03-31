@@ -4,8 +4,11 @@ This is an example quality control program for pill defect detection.
 The program is in C++ and the user interface has been prepared in Qt.
 Some buttons on the GUI have not been programmed and left for you in case you would like to use them or remove them.
 The program controls three defects:
+
 _ Color defect which is the presence of color spots on the pills. These unwanted spots are in yellow, pink and blue. The dark red spots are acceptable.
+
 _ Crack defect on the edge of the pills.
+
 _ Spoilled pills.
 
 Here is a short description of the program.
