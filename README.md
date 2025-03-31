@@ -2,6 +2,12 @@
 
 This is an example quality control program for pill defect detection.
 The program is in C++ and the user interface has been prepared in Qt.
+
+# Set-up
+- I have used OpenCV 4.11.0, Qt 6.8.2
+- Don't forget to configure Qt for OpenCV
+
+# Description of the project
 Some buttons on the GUI have not been programmed and left for you in case you would like to use them or remove them.
 The program controls three defects:
 
@@ -28,11 +34,11 @@ For crack detection, I make two elipses and extract the area between them. The a
 
 ![crack detetction](https://github.com/vmohammadi/Quality-control-of-pills_OpenCV-and-Qt/blob/main/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/4.%20elipse_crack%20det.png)
 
-On the interface, I have added the "Start" and "Stop" buttons for the control. I added a button for entering or changing the OF (Order of fabrication). If it is useful for you, keep it or remove it. I didn't program it as it depends you prefer, it gets the OF from a file, or from a port etc. I have added a "Clear data" button, to clear data in the begining of each OF or day etc. 
+On the interface, I have added the "Start" and "Stop" buttons for the control. I added a button for entering or changing the OF (Order of fabrication). If it is useful for you, keep it or remove it. I didn't program it as it depends you prefer, it gets the OF from a file, or from a port etc. I have added a "Clear data" button, to clear data in the begining of each OF or day etc. By clicking, it asks the user if he is sure.
 
 ![clear data](https://github.com/vmohammadi/Quality-control-of-pills_OpenCV-and-Qt/blob/main/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/5.%20clear%20data.png)
 
-I have added buttons for deativation of control or part of control. This helps if the manager prefers to produce more products even with some defects. Or in case that you prefer to have the images but without controlling (For example in begining of production, it happens that all the products are in ideal quality).
+I have added buttons for deativation of control or part of control. This helps if the manager prefers to produce more products even with some defects. Or in case that you prefer to have the images but without controlling (For example in begining of production, it happens that all the products are in ideal quality). By clicking each one, the button deativates the control and turns the color to light blue.
 
 ![deactivate control](https://github.com/vmohammadi/Quality-control-of-pills_OpenCV-and-Qt/blob/main/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/6.%20deactivate%20a%20control.png)
 
