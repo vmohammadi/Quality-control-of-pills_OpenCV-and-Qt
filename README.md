@@ -1,0 +1,1 @@
+# Quality-control-of-pills_OpenCV-and-Qt
