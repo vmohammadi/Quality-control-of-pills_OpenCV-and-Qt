@@ -42,7 +42,8 @@ I have added buttons for deativation of control or part of control. This helps i
 
 ![deactivate control](https://github.com/vmohammadi/Quality-control-of-pills_OpenCV-and-Qt/blob/main/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/6.%20deactivate%20a%20control.png)
 
-I have added counters for defects (each and total). I have also added many buttons for presentation of necessary information. A label on the left side becomes Green when the pill is conforme and goes Red if the pill is not conforme. 
+I have added counters for defects (each and total). I have also added many buttons for presentation of necessary information. An alarm box has been added in case you would like to inform the user for potential errors (or accidents in case you use cameras). This can be programmed for the errors of software, reading image, accident on machine, camera, lights etc. to go Red and make the user aware of it. 
+A label on the left side becomes Green when the pill is conforme and goes Red if the pill is not conforme. 
 Two previous controlled products are shown on the left side in case the operator needs a double check.
 I have added a history window on down left corner in case the production team wants to verify how the control is going on.
 
