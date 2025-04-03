@@ -34,6 +34,8 @@ For crack detection, I make two elipses and extract the area between them. The a
 
 ![crack detetction](https://github.com/vmohammadi/Quality-control-of-pills_OpenCV-and-Qt/blob/main/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/4.%20elipse_crack%20det.png)
 
+# User Interface
+
 On the interface, I have added the "Start" and "Stop" buttons for the control. I added a button for entering or changing the OF (Order of fabrication). If it is useful for you, keep it or remove it. I didn't program it as it depends you prefer, it gets the OF from a file, or from a port etc. I have added a "Clear data" button, to clear data in the begining of each OF or day etc. By clicking, it asks the user if he is sure.
 
 ![clear data](https://github.com/vmohammadi/Quality-control-of-pills_OpenCV-and-Qt/blob/main/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/5.%20clear%20data.png)
